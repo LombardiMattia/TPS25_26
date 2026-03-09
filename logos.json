@@ -1,0 +1,23 @@
+[
+    {
+        "refer": "HTML",
+        "icon": "<i class='fa-brands fa-html5'></i>",
+        "descrizione": "HTML è un linguaggio di ipertesto a marcatori, usato per definire la struttura di pagine web."
+    },
+    {
+       "refer": "CSS",
+        "icon": "<i class='fa-brands fa-css3-alt'></i>",
+        "descrizione": "CSS è un foglio di stile che permette ai browser di modificare le rappresentazioni grafiche di elementi standard HTML."
+    },
+    {
+       "refer": "JavaScript",
+        "icon": "<i class='fa-brands fa-js'></i>",
+        "descrizione": "JS è un linguaggio di programmazione ad eventi, particolarmente usato per lo sviluppo front-end di pagine web."
+    },
+    {
+       "refer": "Node.js",
+        "icon": "<i class='fa-brands fa-node-js'></i>",
+        "descrizione": "Node è un framework potente che estende le funzionalità di JavaScript e garantisce l'interpretazione lato server."
+    }
+    
+]

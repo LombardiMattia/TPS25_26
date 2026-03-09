@@ -1,0 +1,91 @@
+/*import dei font*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: "Google Sans", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+    min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0px 3px 10px rgb(221, 220, 220);
+}
+nav ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 0.8rem;
+    width: 5rem;
+}
+nav ul li:hover {
+    background-color: rgb(237, 237, 237);
+    border-radius: 30px;
+    cursor: pointer;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.clicked {
+    background-color: rgb(237, 237, 237);
+    border-radius: 30px;
+}
+
+#container {
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+#container .box {
+    background-color:rgb(237, 237, 237) ;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+#container .box .title {
+    font-size: 20px;
+}
+#container span, #container .content {
+    color: gray;
+}
+.box hr {
+    border: 0.4px solid rgb(218, 218, 218);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
